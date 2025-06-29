@@ -1,0 +1,48 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+
+  .text-primary { color: var(--color-primary) !important; }
+  .text-accent { color: var(--color-accent) !important; }
+  .bg-bronze { background-color: #cd7f32 !important; } /* Màu đồng */
+  .bg-silver { background-color: #c0c0c0 !important; } /* Màu bạc */
+  .bg-platinum { background-color: #e5e4e2 !important; } /* Màu bạch kim */
+  .bg-diamond { background-color: #b9f2ff !important; } /* Màu kim cương (xanh nhạt) */
+
+  /* Đảm bảo chữ dễ đọc trên nền màu */
+  .bg-bronze.text-white, .bg-diamond.text-white { color: #fff !important; }
+  .bg-silver.text-dark, .bg-platinum.text-dark { color: #212529 !important; }
+
+}
+

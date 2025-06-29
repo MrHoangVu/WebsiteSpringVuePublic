@@ -1,0 +1,124 @@
+/* src/assets/css/theme.css */
+
+/* --- Theme Sáng (Mặc định) --- */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-accent: #e9ecef;
+
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --text-accent: #495057;
+  --text-on-primary-bg: #ffffff;
+
+  --border-color: #dee2e6;
+  --border-color-subtle: #e9ecef;
+
+  --card-bg: var(--bg-primary);
+  --card-border: var(--border-color);
+  --header-bg: var(--bg-primary);
+  --header-border: var(--border-color-subtle);
+  --footer-bg: #1c1f23;
+  --footer-text: rgba(255, 255, 255, 0.75);
+  --sidebar-bg: #4b2c20;
+  --sidebar-text: rgba(255, 255, 255, 0.8);
+  --sidebar-link-active-bg: #d4af37;
+  --sidebar-link-active-text: #40241a;
+
+  --bs-primary-rgb: 109, 76, 65;
+  --bs-primary: #6d4c41;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-secondary: #6c757d;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-success: #198754;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-info: #0dcaf0;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-warning: #ffc107;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-danger: #dc3545;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-light: #f8f9fa;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark: #212529;
+
+  --bs-body-color: var(--text-primary);
+  --bs-body-bg: var(--bg-primary);
+  --bs-secondary-color: var(--text-secondary);
+  --bs-heading-color: inherit;
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: color-mix(in srgb, var(--bs-primary) 80%, black);
+  --bs-link-decoration: underline;
+  --bs-border-color: var(--border-color);
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --accent-color: #ffc107;
+  --accent-color-hover: #e0a800;
+
+
+
+  /* --- Table Styling --- */
+  table td{
+    color: var(--text-primary);
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+
+}
+
+/* --- Theme Tối --- */
+.dark {
+  --bg-primary: #212529;
+  --bg-secondary: #2b3035;
+  --bg-accent: #343a40;
+
+  --text-primary: #f8f9fa;
+  --text-secondary: #adb5bd;
+  --text-accent: #ced4da;
+  --text-on-primary-bg: #ffffff;
+
+  --border-color: #495057;
+  --border-color-subtle: #343a40;
+
+  --card-bg: #2b3035;
+  --card-border: var(--border-color);
+  --header-bg: var(--bg-primary);
+  --header-border: var(--border-color);
+  --footer-bg: #1c1f23;
+  --footer-text: rgba(255, 255, 255, 0.75);
+  --sidebar-bg: #3a211a;
+  --sidebar-text: rgba(255, 255, 255, 0.85);
+  --sidebar-link-active-bg: #e0a800;
+  --sidebar-link-active-text: #212529;
+
+  --bs-primary-rgb: 161, 136, 127;
+  --bs-primary: #a1887f;
+  --bs-secondary-rgb: 173, 181, 189;
+  --bs-secondary: #adb5bd;
+  --bs-success-rgb: 64, 173, 116;
+  --bs-success: #40ad74;
+  --bs-info-rgb: 59, 213, 242;
+  --bs-info: #3bd5f2;
+  --bs-warning-rgb: 255, 202, 44;
+  --bs-warning: #ffca2c;
+  --bs-danger-rgb: 245, 113, 126;
+  --bs-danger: #f5717e;
+  --bs-light-rgb: 52, 58, 64;
+  --bs-light: #343a40;
+  --bs-dark-rgb: 248, 249, 250;
+  --bs-dark: #f8f9fa;
+
+  --bs-body-color: var(--text-primary);
+  --bs-body-bg: var(--bg-primary);
+  --bs-secondary-color: var(--text-secondary);
+  --bs-heading-color: inherit;
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: color-mix(in srgb, var(--bs-primary) 80%, white);
+  --bs-border-color: var(--border-color);
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
+  --accent-color: #ffca2c;
+  --accent-color-hover: #ffdd6b;
+
+
+
+}
+
